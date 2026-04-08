@@ -1,0 +1,10 @@
+     nav {background-color: rgb(28, 50, 70);}
+            header {background-color: cadetblue;
+            text-align: center}
+            section{background-color: lightblue;}
+            footer {background-color:rgb(28, 50, 70);
+                 color:white; text-align: center}
+            article{background-color: rgb(185, 215, 216);}
+            a{color:white}
+            h1{ color:white;}
+            * {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
