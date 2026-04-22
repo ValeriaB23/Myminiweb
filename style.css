@@ -1,10 +1,65 @@
-     nav {background-color: rgb(28, 50, 70);}
-            header {background-color: cadetblue;
-            text-align: center}
-            section{background-color: lightblue;}
-            footer {background-color:rgb(28, 50, 70);
-                 color:white; text-align: center}
-            article{background-color: rgb(185, 215, 216);}
-            a{color:white}
-            h1{ color:white;}
-            * {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+     *{
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     } 
+     body{margin:0;}
+
+
+     nav {
+          background-color: rgb(28, 50, 70);}
+
+          nav ul{
+               list-style: none; 
+               text-align: center;
+               padding: 30px;
+               margin-bottom: 0;
+          }
+
+          nav ul li{
+               display:inline;
+               margin: 15px;
+
+          }
+
+          nav ul li a{
+               text-decoration: none;
+
+          }
+
+          nav a:hover{
+               text-decoration: underline;
+          }
+
+            header {
+            background-color: cadetblue;
+            text-align: center;
+            padding:10px;
+            padding-bottom: 30px;
+          }
+
+
+            section{
+               background-color: lightblue;
+               padding: 10px;
+
+          }
+
+            footer {
+               background-color:rgb(28, 50, 70);
+               text-align: center;
+               padding: 10px;
+          }
+
+            article{
+               background-color: rgb(185, 215, 216);
+               padding: 15px;
+               margin-bottom: 25px;
+               border-radius: 30px;
+               box-shadow: 0 4px 8px #000000;
+
+          }
+
+            a{
+               color:white}
+
+            h1{ 
+               color:white;}
